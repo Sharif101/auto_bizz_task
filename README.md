@@ -15,3 +15,5 @@ Time-Series Chart – Visualize total sales over time
 
 Frontend: React
 Styling: Tailwind CSS / Shadcn UI
+
+https://auto-bizz-task.netlify.app/
