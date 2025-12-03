@@ -120,11 +120,12 @@ export default function Sales() {
 
   return (
     <div className="w-full">
-      <h2 className="text-2xl font-bold mb-2">Sales Overview</h2>
-
-      <p className="text-gray-700 mb-4">
-        <strong>Total Sales:</strong> {totalSalesCount}
-      </p>
+      <div className="flex justify-between items-center bg-white p-4 rounded-lg shadow-sm mb-4 mt-5">
+        <h2 className="text-2xl font-bold">Sales Overview</h2>
+        <p className="text-gray-700">
+          <strong>Total Sales:</strong> {totalSalesCount}
+        </p>
+      </div>
 
       <SearchFilter
         filters={filters}

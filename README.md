@@ -1,8 +1,17 @@
-# React + Vite
+# Sales Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple one-page dashboard built with React to view and analyze sales data. Fetches data from a backend API and provides filtering, sorting, pagination, and a time-series chart.
 
-Currently, two official plugins are available:
+# Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Date Range Filter – Select start and end dates to filter sales
+Additional Filters – Minimum price, customer email, and phone number
+Sales Table – Displays 50 items per page with API pagination
+Sorting – Sort by Date and Price (ascending/descending)
+Pagination – Use API before and after tokens to navigate pages
+Time-Series Chart – Visualize total sales over time
+
+# Tech Stack
+
+Frontend: React
+Styling: Tailwind CSS / Shadcn UI
